@@ -30,7 +30,7 @@
     }
   }
   
-.card1 {
+/* .card1 {
     position: relative;
     flex: 1 1 100%;
     margin: 31px 0;
@@ -85,4 +85,4 @@
   .card__one1:hover::after, .card__one1:focus::after {
     opacity: 1;
   }
-  
+   */
