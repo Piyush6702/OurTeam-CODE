@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+.cardm{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .imgem{
+  
+    height: 150px;
+    overflow: hidden;
+    clip-path: circle();
+  }
+  
+  .cardm{
+    overflow: hidden;
+    margin: 20px 50px;
+  }
+  
+  .imgem img{
+    transform: scale(1);
+    clip-path: circle();
+  }
+  
+ .titlem{
+    color: rgb(255, 153, 0);
+    font-size: 15px;
+    padding: 0px 20px;
+    margin: 2px auto 0px auto;
+  }
+  
+  .desm{
+    font-size: 12px;
+    display: block;
+    padding: 0px 20px;
+  }
+   
+  .detailsm{
+    display: inline;
+  }
+  
+  
+  .desm p{
+    margin-left: 5px;
+  }
+  
+  .desm .icnm{
+    color: orange;
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding: 2px 2px 15px 2px;
+    cursor: pointer;
+  }
+  
+  .desm .icnm:hover{
+    color: rgb(255, 94, 0);
+  }
