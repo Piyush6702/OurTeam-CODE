@@ -35,9 +35,30 @@ color: black;
   margin-left: 50px;
 }
 
-@media only screen and (max-width:627px){
+@media only screen and (max-width:768px){
   .banner .content h2 {
-    font-size: 2em;
+    font-size: 2.5em;
+  }
+  .banner .content p{
+    
+    font-size: 1.5em;
+}
+.banner{
+  justify-content: center;
+  padding: 150px 20px 50px;
+  flex-direction:column;
+}
+.banner .image{
+  max-width: 300px;
+  height: auto;
+ margin-left: 0px;
+}
+  
+}
+
+@media only screen and (max-width:500px){
+  .banner .content h2 {
+    font-size: 1.5em;
   }
   .banner .content p{
     
@@ -57,19 +78,6 @@ color: black;
 }
 
 
-@media only screen and (max-width:480px){
-  .banner{
-    flex-direction:column;
-    align-items: center;
-    padding: 150px 20px 50px;
-   
-  }
-  .banner .image{
-    max-width: 300px;
-    height: auto;
-   margin-left: 0px;
-  }
-}
 
 
 
