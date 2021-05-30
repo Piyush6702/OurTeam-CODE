@@ -12,7 +12,9 @@ body{
   align-items: center;
 }
 
-
+.banner .content{
+  max-width: 700px;
+}
 
 .banner .content h2{
 margin-bottom:10px ;
