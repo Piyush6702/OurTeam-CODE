@@ -6,7 +6,8 @@ import Media from 'react-media';
 function Header(){
  return <div  className="banner">
 <div className="content">
-         <h2>Club Of DEvelopers</h2>
+<div className="leader">
+<h1>Code Of DEvelopers</h1></div>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus amet, porro unde nihil blanditiis harum corporis accusantium magnam nesciunt ad totam dignissimos maiores distinctio assumenda iusto, ab in beatae impedit.</p>
      </div>
      <img src={header_img} className="image"/>
