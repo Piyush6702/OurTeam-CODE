@@ -6,8 +6,9 @@ body{
 }
 
 .banner{
+  background-color: white;
+  padding: 50px;
   display: flex;
-  flex-wrap: wrap;
   justify-content:center;
   align-items: center;
 }
@@ -15,7 +16,6 @@ body{
 .banner .content{
   max-width: 700px;
 }
-
 .banner .content h2{
 margin-bottom:10px ;
 font-size: 4em;
@@ -28,18 +28,19 @@ color: black;
   font-size: 1.5em;
 
 }
+
 .banner .image{
   max-width: 400px;
-  
+  margin-left: 50px;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:794px){
   .banner .content h2 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .banner .content p{
     
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .banner{
   justify-content: center;
@@ -53,6 +54,7 @@ color: black;
 }
   
 }
+
 @media only screen and (max-width:500px){
   .banner .content h2 {
     font-size: 1.5em;
