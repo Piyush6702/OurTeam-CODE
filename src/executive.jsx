@@ -11,14 +11,23 @@ return <div className="exe"><h1>Executives</h1>
 <ExecutiveItem
          src={profile_img}
          name="Monal Jain"
+         facebook="#"
+         linkedn="#"
+         mail="#"
          />
  <ExecutiveItem
          src={profile_img}
          name="Vipin Gautam"
+         facebook="#"
+         linkedn="#"
+         mail="#"
          />
 <ExecutiveItem
          src={profile_img}
          name="Tanu Agarwal"
+         facebook="#"
+         linkedn="#"
+         mail="#"
          />
 
 </div>

@@ -15,9 +15,9 @@ className="cards_item_img1"
 /></div >
 <p className="exe_name" >{props.name}</p>
 <div style={{padding:'0px 0px 5px 0px'}} className='des'>
-            <a className='icn' href="#"><FaFacebook /></a>
-            <a className='icn' href="#"><FaLinkedinIn /></a>
-            <a className='icn' href="#"><ImMail4 /></a>
+            <a className='icn' href={props.facebook}><FaFacebook /></a>
+            <a className='icn' href={props.linkedn}><FaLinkedinIn /></a>
+            <a className='icn' href={props.mail}><ImMail4 /></a>
 </div>
 
 </div>

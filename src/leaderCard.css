@@ -132,3 +132,5 @@ border:3px solid white;
 .main_cot:hover::after, .main_cot:focus::after {
   opacity: 1;
 }
+
+

@@ -3,7 +3,7 @@
 .exe{
     padding: 30px;
     text-align: center;
-    min-height: 90vh;
+    height: auto;
     margin:0px;
     align-items: center;
     justify-content: center;

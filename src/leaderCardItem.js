@@ -15,9 +15,9 @@ return <div className="main_cot">
     <p className="cards_item_text" style={{fontSize:20}}>{props.name}</p>
         <p className="cards_item_text_founder" style={{fontSize:15}}>{props.post}</p>
    <div style={{padding:'0px 0px 5px 0px'}} className='des'>
-                <a className='icn' href="#"><FaFacebook /></a>
-                <a className='icn' href="#"><FaLinkedinIn /></a>
-                <a className='icn' href="#"><ImMail4 /></a>
+                <a className='icn' href={props.facebook}><FaFacebook /></a>
+                <a className='icn' href={props.linkedn}><FaLinkedinIn /></a>
+                <a className='icn' href={props.mail}><ImMail4 /></a>
     </div>
    
    
