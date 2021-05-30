@@ -5,15 +5,15 @@ import { FaFacebook } from "react-icons/fa";
 import { ImMail4 } from "react-icons/im";
 
 function ExecutiveItem(props){
-return <div className="main_cot">
-<div className="img_cot" style={{height:220, width:200}}>
+return <div className="exe_main_cot">
+<div className="exe_cot" >
 <img 
 src={props.src}
 alt="profile-pic"
-className="cards_item_img"
+className="cards_item_img1"
+
 /></div >
-<p className="cards_item_text" >{props.name}</p>
-    <p className="cards_item_text_founder "style={{fontSize:15}}>{props.post}</p>
+<p className="exe_name" >{props.name}</p>
 <div style={{padding:'0px 0px 5px 0px'}} className='des'>
             <a className='icn' href="#"><FaFacebook /></a>
             <a className='icn' href="#"><FaLinkedinIn /></a>

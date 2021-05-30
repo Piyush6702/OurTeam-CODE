@@ -1,19 +1,20 @@
-import Member from "./member";
-import Data from "./Data";
 
-const Members = () => {
+import Assistant from "./assistant";
+import Data from "../Data";
+
+const assistants = () => {
   return (
     <div>
       {Data.filter((dt)=> {
-        if (dt.category === 'members') {
+        if (dt.category === 'assistants') {
             return dt
         }
           
       }).map((dt) => (
-        <Member
+        <Assistant
           name={dt.name}
           im={dt.image}
-          post={dt.post}
+          
           mail={dt.mail}
           fb_link={dt.fb_link}
           lnkdin_link={dt.lnkdin_link}
@@ -23,4 +24,4 @@ const Members = () => {
   );
 }; 
 
-export default Members;
+export default assistants;

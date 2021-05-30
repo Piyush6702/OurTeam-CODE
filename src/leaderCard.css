@@ -20,7 +20,7 @@ font-size: 1em;
 }
 
 .leader_cont{
-  background: linear-gradient(90deg, #ffdbdd, #ffd5d5, #ffd0cc, #ffcbc2, #ffc6b8, #ffc2ac, #ffbea0, #ffbb93, #ffb886, #ffb679, #ffb56b);
+  
   display: flex;
   flex-wrap: wrap;
   align-items: center;

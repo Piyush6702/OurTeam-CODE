@@ -1,10 +1,10 @@
-import activity_img from './assets/mem_pic.jpg'
+import activity_img from '../assets/mem_pic.jpg'
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { ImMail4 } from "react-icons/im";
-import "./member.css"
+import "../member.css"
 
-const member = ({ name, im, post, mail, fb_link, lnkdin_link }) => {
+const assistant = ({ name, im, post, mail, fb_link, lnkdin_link }) => {
     return (
           <div className='cardm'>
             <div className='imgem'>
@@ -24,4 +24,4 @@ const member = ({ name, im, post, mail, fb_link, lnkdin_link }) => {
     )
 }
 
-export default member
+export default assistant;

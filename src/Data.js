@@ -108,4 +108,115 @@ export default [
         fb_link: '',
         lnkdin_link: '',
     },
+    {
+        id: 11,
+        name: 'Shivangi Singh',
+        image: '',
+        category: 'assistants',
+        mail: '',
+        fb_link: '',
+        lnkdin_link: '',
+    },
+
+    {
+        id: 12,
+        name: 'Jeenesh K. Chaudhary',
+        image: '',
+        
+        category: 'assistants',
+        mail: '',
+        fb_link: '',
+        lnkdin_link: '',
+    },
+   
+    {
+        id: 13,
+        name: 'Arnika Kaithwas',
+        image: '',
+        
+        category: 'assistants',
+        mail: '',
+        fb_link: '',
+        lnkdin_link: '',
+    },
+
+    {
+        id: 14,
+        name: 'Adarsh Srivastava',
+        image: '',
+        
+        category: 'assistants',
+        mail: '',
+        fb_link: '',
+        lnkdin_link: '',
+    },
+
+    {
+        id: 15,
+        name: 'Shivangi shukla',
+        image: '',
+        
+        category: 'assistants',
+        mail: '',
+        fb_link: '',
+        lnkdin_link: '',
+    },
+
+    {
+        id: 16,
+        name: 'Sumit Kumar Singh',
+        image: '',
+       
+        category: 'assistants',
+        mail: '',
+        fb_link: '',
+        lnkdin_link: '',
+    },
+
+
+    {
+        id: 17,
+        name: 'Ayush K shukla',
+        image: '',
+      
+        category: 'assistants',
+        mail: '',
+        fb_link: '',
+        lnkdin_link: '',
+    },
+
+
+    {
+        id: 18,
+        name: 'Shubham Pathak',
+        image: '',
+        
+        category: 'assistants',
+        mail: '',
+        fb_link: '',
+        lnkdin_link: '',
+    },
+
+    {
+        id: 19,
+        name: 'Sanskar Singh',
+        image: '',
+        
+        category: 'assistants',
+        mail: '',
+        fb_link: '',
+        lnkdin_link: '',
+    },
+
+
+    {
+        id: 20,
+        name: 'Hareesh Kumar',
+        image: '',
+      
+        category: 'assistants',
+        mail: '',
+        fb_link: '',
+        lnkdin_link: '',
+    },
 ]
