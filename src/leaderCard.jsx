@@ -14,17 +14,26 @@ return <div className="leader">
          src={profile_img}
         name="Ritesh Rai"
         post="Founder"
+        facebook="#"
+        linkedn="#"
+        mail="#"
         />
                 <LeaderCardItem
          src={profile_img}
         name="Samarth agarwal"
         post="Founder"
+        facebook="#"
+        linkedn="#"
+        mail="#"
         />
 
                 <LeaderCardItem
          src={profile_img}
         name="Rajat Saxena"
         post="Founder"
+        facebook="#"
+        linkedn="#"
+        mail="#"
         />
 </div>
 </div>

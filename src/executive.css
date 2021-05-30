@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
   }
+  
 .exe h1{
     margin-bottom: 0px;
     font-size: 3em;
@@ -27,7 +28,6 @@
    margin-top: 0px;
     font-size: 1em;
 }
-
 
 .exe_main_cot{
 display: flex;
