@@ -1,14 +1,15 @@
 import Member from "./Member";
 import Data from "./Data";
 
-const members = () => {
+const members = (props) => {
+  console.log(props.post)
   return (
-    <div>
-      {Data.filter((dt)=> {
-        if (dt.category === 'members') {
-            return dt
+    <div className="Members">
+
+      {Data.filter((dt) => {
+        if (dt.category === props.post) {
+          return dt;
         }
-          
       }).map((dt) => (
         <Member
           name={dt.name}
@@ -21,6 +22,6 @@ const members = () => {
       ))}
     </div>
   );
-}; 
+};
 
 export default members;

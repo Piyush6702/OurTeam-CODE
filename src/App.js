@@ -1,28 +1,35 @@
 import React from "react";
-import Header from "./header";
-import LeaderCard from "./leaderCard";
-import Executives from "./executive";
-import Work from "./work";
-import Members from './Members';
-import Assistant from "./components/assistantItem"
-import"./App.css";
+import Header from "./components/header";
+
+import WorkWithUs from "./components/WorkWithUs";
+
+import Members from "./components/Members";
+import "./App.css";
 
 function App() {
+  const operatingdiv = "Operating Member";
+  const assistancediv = "Assistance Team";
   return (
-    <div>
-    <header><Header/></header>
-    <div className="leader"><LeaderCard/></div>
-    <div className="executive"><Executives/></div>
-    <div className="member">
-      <h2>Members</h2>
-      <Members/>
+    <div className="teamDiv">
+      <header>
+        <Header />
+      </header>
+      <div className="member operatingdiv">
+        <h2>
+          Operating Team
+          <hr className="mid-hr" />
+        </h2>
+        <Members post={operatingdiv} />
       </div>
-    <div className="member">
-      <h2>Assistants</h2>
-      <Assistant/>
+      <div className="member assitancediv">
+        <h2>
+          Assistance Team
+          <hr className="mid-hr" />
+        </h2>
+        <Members post={assistancediv} />
       </div>
-    <Work/>
-</div>
-)
+      <WorkWithUs />
+    </div>
+  );
 }
 export default App;
