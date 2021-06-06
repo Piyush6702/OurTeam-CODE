@@ -8,24 +8,17 @@
   padding: 14px 10px 10px 10px;
   margin: 8px 10px;
   border-radius: 8px;
+  background-color:#fff;
 }
 
-
-
-.operatingdiv .cardm {
-  background-color: rgb(248, 248, 248);
+.operatingdiv .cardm{
+  background-color: rgb(247, 247, 247);
 }
 
-.assitancediv .cardm {
-  background-color: rgba(255, 252, 248, 0.582);
-}
-.operatingdiv .cardm:hover {
-  box-shadow: 0px 0px 8px #2e2e2e;
+.cardm:hover {
+  box-shadow: 0px 0px 5px #424242;
 }
 
-.assitancediv .cardm:hover {
-  box-shadow: 0px 0px 8px #2e2e2e;
-}
 
 
 .imgem img {
@@ -33,13 +26,11 @@
   height: 150px;
   overflow: hidden;
   clip-path: circle();
-  border: 3px solid #ec7c2d;
+  border: 2px solid #ec7c2d;
   border-radius: 50%;
 }
 
-.assitancediv .imgem img{
-  border: 3px solid #93ec2d;
-}
+
 
 .imgem img {
   transform: scale(1);
