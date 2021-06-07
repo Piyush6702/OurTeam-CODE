@@ -9,16 +9,16 @@ const member = ({ name, im, post, mail, fb_link, lnkdin_link }) => {
         
           <div className='cardm'>
             <div className='imgem'>
-                <img src={activity_img} alt='Image 1'/>
+                <img src={im} alt='Image 1'/>
             </div>
             <div className='titlem'>
                 <h4>{name}</h4>
             </div>
 
             <div style={{padding:'0px 0px 5px 0px'}} className='desm'>
-                <a className='icnm'><FaFacebook /></a>
-                <a className='icnm'><FaLinkedinIn /></a>
-                <a className='icnm'><ImMail4 /></a>
+                <a className='icnm' href={fb_link} target="_blank"><FaFacebook /></a>
+                <a className='icnm' href={lnkdin_link} target="_blank"><FaLinkedinIn /></a>
+                <a className='icnm' href={mail}><ImMail4 /></a>
             </div>
         </div>
      

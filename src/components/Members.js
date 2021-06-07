@@ -2,7 +2,7 @@ import Member from "./Member";
 import Data from "./Data";
 
 const members = (props) => {
-  console.log(props.post)
+
   return (
     <div className="Members">
 
